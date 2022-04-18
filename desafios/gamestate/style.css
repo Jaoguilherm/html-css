@@ -16,7 +16,7 @@ strong.azul{
 }
 
 header{
-    background-image: url(../Imagens/background-gamestate.png);
+    background-image: url(Imagens/background-gamestate.png);
     background-size: cover;
     /*padding-top: px;*/
     text-align: center;
@@ -208,7 +208,7 @@ main ul{
 
 div.video{
     /*background-color: black;*/
-    background-image: url(../Imagens_noticias/6.png);
+    background-image: url(Imagens_noticias/6.png);
     background-position: center;
     background-size: cover;/*PRECISO VER SE MELHORO ISSO AQUI*/
 
