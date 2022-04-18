@@ -1,0 +1,17 @@
+@charset "utf-8";
+body{
+    background-color: gainsboro;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+h1{
+    color: rgb(16, 46, 212);
+}
+h2{
+    color: grey;
+}
+p{
+    color: rgb(0, 0, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+}

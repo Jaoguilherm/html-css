@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        a{
+            color: blue;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: rgb(125, 125, 255);
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        a:active{
+            color: rgb(1, 1, 136);
+        }
+        a::after{
+            content: ' [link]';
+            font-weight: normal;
+            text-decoration: none;
+            color: rgb(97, 97, 97);
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://open.spotify.com/genre/podcasts-page" target="_blank">Podcast GameState &#127925</li></a>
+        <li><a href="https://www.youtube.com/c/GameStatee" target="_blank">Canal do GameState &#128252</a></li>
+        <li><a href="https://www.instagram.com/lootnewss/" target="_blank">Instagram do GameState &#128125</a></li>
+    </ul>
+</body>
+</html>

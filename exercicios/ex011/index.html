@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiplas midias</title>
+</head>
+<body>
+    <h1>Imagem dinanmica</h1>
+    <p>Tente abrir este site em vários dispositivos diferentes.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/photop.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/photom.png" type="image/png">
+        <img src="Imagens/photog.png" alt="imagem flexivel">
+    </picture>
+
+    <h1>Reproduzindo audio</h1>
+    <p>vamos aprender a reproduzir audio.</p>
+    <audio src="midia/music001.mp3" controls autoplay></audio>
+    <br>
+    <audio preload="metadata" autoplay controls>
+        <source src="midia/music001.mp3" type="audio/mpeg">
+        <source src="midia/music001.wav" type="audio/wav">
+        <source src="midia/music001.ogg" type="audio/ogg">
+        <p>Infelizmente o seu navegador nao consegue reproduzir o audio</p>
+        <a href="midia/music001.mp3">Clique aqui para baixar o arquivo MP3</a>
+    </audio>
+</body>
+</html>

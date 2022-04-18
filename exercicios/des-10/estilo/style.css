@@ -1,0 +1,153 @@
+@charset "UTF-8";
+
+/*Importacao de fontes*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face{
+    font-family: 'Android';
+    src: url(/des-10/fontes/idroid.otf) format('opentype');
+    font-weight: normal;
+}
+
+/*Variaveis em CSS*/
+
+:root{ 
+    --cor01:#c5ebd6;
+    --cor02:#83e1ad;
+    --cor03:#3ddc84;
+    --cor04:#2fa866;
+    --cor05:#1a5c37;
+    --cor06:#063d1e;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', cursive;
+    --fonte-android:'Android', cursive;
+
+    --imagem-back: ;
+}
+
+main p{
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px; /*recuo no inicio do texto*/
+    line-height: 1.5em; /*Altura entre linhas*/
+}
+
+/*Modificacao em todos os elementos*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: var(--cor01);
+    font-family: var(--fonte-padrao);
+}
+
+header{
+    background-image: linear-gradient(to bottom, var(--cor03), var(--cor05));
+    /*background-color: var(--cor04);*/
+    min-height: 80px;
+    text-align: center;
+    padding-top: 20px;
+}
+header > h1{
+    color: white;
+    font-family: var(--fonte-destaque);
+    margin-bottom: 5px;
+}
+header > p{
+    color: white;
+    padding-bottom: 10px;/*eu tinha colocado margin, porem como mudei pra bloco...*/
+    max-width: 600px; /*para que nao corte o texto, porem vira um bloco*/
+    margin: auto;/*sendo um bloco, eu preciso centralizar assim*/
+
+}
+nav{
+    padding: 10px;
+    background-color: var(--cor05);
+    text-align: center;
+    
+    
+}
+nav > a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+nav > a:hover{
+    background-color: black ;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+}
+main{
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    min-width: 300px;
+    max-width: 1000px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.432);
+    border-bottom-left-radius: 10px;/*arredondamento da borda de baixo do lado esquerdo*/
+    border-bottom-right-radius: 10px;/*arredondamento da borda de baixo do lado direito*/
+}
+main a{
+    text-decoration: none;
+    color: blue;
+}
+main h1{
+    color: var(--cor05);
+    font-family: var(--fonte-android);
+}
+main h2{
+    font-family: var(--fonte-android);
+}
+main img{
+    width: 100%;
+}
+main img.pequeno{
+    max-width: 350px;
+    display: block; /*Por ser uma inline level, preciso fazer isso para centralizar com margin*/
+    margin: auto;   /*Centrailizo a imagem no meio*/
+}
+
+/*Aqui embaixo e para configiurar a responsividade do video*/
+/*-----------------!!!!GAMBIARRA ALERT!!!!-----------------*/
+
+div.video{
+    background-color: black;
+    padding: 20px;
+    margin: 0px -20px 30px -20px;/*para deixar ligado do lado*/
+    
+
+}
+div.video > iframe{
+
+}
+aside{
+    background-color: var(--cor02);
+    border-radius: 10px;
+    padding: 20px;
+}
+aside > ul{
+    list-style-position: inside;/*bolinhas da lista ficam pra dentro*/
+    columns: 2;/*divide a lista em dois*/
+}
+footer{
+    margin-top: 10px;
+    background-color: var(--cor05);
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px
+}
+footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+footer a:hover{
+    text-decoration: underline;
+    color: black;
+}

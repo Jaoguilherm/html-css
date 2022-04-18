@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(172, 255, 255);
+            margin: 0px;
+        }
+        header{
+            background-color: deepskyblue;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: aqua;
+            padding: 3px;}
+         nav > a {
+             text-decoration: none;
+             color: black;
+             margin-right: 30px;
+         }
+         nav > a:hover {
+             text-decoration: underline;
+         }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 2px;
+        }
+        article{
+            background-color: rgb(170, 170, 170);
+            border-radius: 3px;
+            box-shadow: 1px 1px 1px rgb(107, 80, 80);
+        }
+        article > aside {
+            background-color: rgb(97, 97, 97);
+            border-radius: 3px;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer > p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">teste 1</a>
+            <a href="#">teste 2</a>
+            <a href="#">teste 3</a>
+            <a href="#">teste 4</a>
+            <a href="#">teste 5</a>
+        </nav>
+
+    </header>
+    <main>
+        <section id="assuntos">
+            <article>
+                <h2>Assuntos diversificados</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In minima dignissimos veniam voluptatibus similique culpa beatae, incidunt fuga maiores quasi error quisquam provident sit accusantium ducimus quia pariatur dolores aliquid!</p> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis veritatis molestiae cumque voluptatum voluptatibus, qui magnam possimus, aliquid nam maxime labore modi quidem quis nulla veniam quia ut autem porro. <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores doloremque optio perspiciatis doloribus dolorum cumque amet exercitationem, error blanditiis provident cum nemo nostrum iure officia aspernatur sapiente ab quibusdam ipsum.</p></p>
+            </article>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In minima dignissimos veniam voluptatibus similique culpa beatae, incidunt fuga maiores quasi error quisquam provident sit accusantium ducimus quia pariatur dolores aliquid!</p>
+                <aside><p>Artigo escrito por João Guilherme</p></aside>
+                    
+            </article>
+        </section>
+
+    </main>
+    <footer>
+        <p>Desenvolvido por João Guilherme/GameState</p>
+
+    </footer>
+</body>
+</html>

@@ -1,0 +1,13 @@
+@charset "UTF-8";
+body{
+    background-color: rgb(196, 196, 196);
+}
+h1{
+    color: rgb(7, 65, 116); font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; text-align: center;
+}
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p{
+    color: rgb(90, 90, 90);
+}
