@@ -1,0 +1,234 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.texto{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header{
+    background-image: url(../Imagens/background-gamestate.png);
+    background-size: cover;
+    /*padding-top: px;*/
+    text-align: center;
+    ;
+}
+header img{
+    max-width: 130px;
+}
+nav{
+    background-color: black;
+    padding: 10px;
+}
+nav > a {
+    color: #F28705;
+    padding: 8px;
+    text-decoration: none;
+    margin: 17px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    transition: 0.5s;
+}
+nav > a:hover{
+    background-color: #F28705;  
+    
+    color: black;
+    transition-duration: 0.5s;
+}
+main{
+    padding: 30px ;
+}
+body{
+    background-image: url(https://i.redd.it/zwef41gb3x551.png);
+}
+main{
+    background-color: #cfcfcff5;
+    padding: 20px;
+    margin: auto;
+    min-width: 350px;
+    max-width: 1100px;
+}
+   /*Imagem e descricao do jogo*/
+
+
+.grid{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.grid img{
+    max-width: 100%;
+    min-width: 200px;
+    max-width: 450px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 5px solid #F28705;
+    transition: 0.75s;
+    
+}
+.grid img:hover{
+    transform: scale(1.005);
+    transition: 0.75s;
+}
+.grid h1{
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 20px;
+}
+.grid p{
+    max-width: 500px;
+    max-height: 225px;
+    margin: 40px;
+    text-align: justify;
+    font-size: large;
+    text-indent: 30px;
+}
+/*
+.downjog{
+    text-align: center;
+    background-color: black;
+    margin-top: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 80px;
+    padding: 20px;
+}
+.downjog a{
+    padding: 20px;
+}
+*/
+
+/**/
+
+.downjog2{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0);
+    align-items: center;
+    justify-content: center;
+    margin: 20px 40px 10px 40px;
+}
+
+  
+  .nome, .nome:before {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  .nome {
+      width: 150px;
+      height: 50px;
+      cursor: pointer;
+      font-family: 'Play', sans-serif;
+      font-size: 20px;
+      color: orange;
+      border: none;
+      border-radius: 25px;
+      background-image: url("https://www.gamereactor.pt/media/65/cyberpunk2077_3196563.png");
+      background-size: 150%;
+      background-position: left;
+      transition: 1s;
+      margin: 20px;
+  }
+
+  /*Nome dos botoes - inicio*/
+
+  .nome:before {
+      width: 150px;
+      height: 50px;
+      content: 'Jogar';
+      background: rgba(0,0,0,0.6);
+      border-radius: 25px;
+      position: absolute;
+      transition: 500ms;
+  }
+  .nome2:before {
+    width: 150px;
+    height: 50px;
+    content: 'Baixar';
+    background: rgba(0,0,0,0.6);
+    border-radius: 25px;
+    position: absolute;
+    transition: 500ms;
+}
+
+  /*Nome dos botoes - inicio*/
+  
+  .nome:hover:before {
+      background: rgba(0,0,0,0);
+      text-shadow: 1px 1px 1px black;
+  }
+  
+  .nome:hover {
+      color: white;
+      background-position: center;
+  }
+  
+  .nome:focus {
+      outline: none;
+  }
+
+  
+/*Inicio do video*/
+
+div.video{
+    background-color: rgba(0, 0, 0, 0.11);
+    padding: 30px 30px;
+    margin: 20px -20px 30px -20px;
+
+    padding-bottom: 55%;
+
+    position: relative;
+}
+div.video > iframe{
+    position: absolute;
+    align-items: center;
+
+    top: 5%;
+    left: 5%;
+
+    width: 90%;
+    height: 90%;
+
+    border: 4px inset #F28705;
+    border-radius: 5px;
+}
+
+
+
+
+.vergrid p {
+    margin: 10px;
+    text-align: justify;
+    font-size: large;
+    text-indent: 30px;
+}
+
+
+
+footer{
+    /*position: absolute;*/
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    padding: 10px;
+}
+footer img{
+    padding-bottom: 5px;
+    max-width: 30px;
+}
+footer a{
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 400;
+    
+}

@@ -1,0 +1,43 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	position: relative;
+}
+
+.hexagon {
+	width: 100px;
+	height: 60px;
+	background: #9980fa;
+	position: relative;
+}
+
+.hexagon:before {
+	content: '';
+	position: absolute;
+	top: -30px;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 30px solid #9980FA;
+}
+
+.hexagon:after {
+	content: '';
+	position: absolute;
+	bottom: -30px;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 30px solid #9980FA;
+}
