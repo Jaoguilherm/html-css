@@ -1,129 +1,152 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 
-
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+  margin: 0px;
+  padding: 0px;
 }
-
-strong.laranja{
-    color: #F28705;
-}
-strong.azul{
-    color: rgb(77, 77, 255);
+body {
+  background-image: url(../Imagens/amar\ \(1\).png);
 }
 
-header{
-    background-image: url(../Imagens/background-gamestate.png);
-    background-size: cover;
-    /*padding-top: px;*/
-    text-align: center;
-    ;
+header {
+  background-image: url(../Imagens/background-gamestate.png);
+  background-size: cover;
+  /*padding-top: px;*/
+  text-align: center;
 }
-header img{
-    max-width: 130px;
+header img {
+  max-width: 130px;
 }
-nav{
-    background-color: black;
-    padding: 10px;
+nav {
+  background-color: black;
+  padding: 10px;
 }
 nav > a {
-    color: #F28705;
-    padding: 8px;
-    text-decoration: none;
-    margin: 17px;
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: bold;
-    transition: 0.5s;
+  color: #f28705;
+  padding: 8px;
+  text-decoration: none;
+  margin: 17px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  transition: 0.5s;
 }
-nav > a:hover{
-    background-color: #F28705;  
-    
-    color: black;
-    transition-duration: 0.5s;
+nav > a:hover {
+  background-color: #f28705;
+
+  color: black;
+  transition-duration: 0.5s;
+}
+.local {
+  background-color: #f28705;
+  color: black;
+  transition-duration: 0.5s;
 }
 
-main{
-    background-color: #cfcfcf;
-    padding: 20px;
-    margin: auto;
-    min-width: 350px;
-    max-width: 1500px;
+main {
+  background-color: #ffffff;
+  padding: 20px;
+  margin: auto;
+  min-width: 290px;
+  max-width: 90vw;
 }
 
-.artigo{
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 1500px;
-    margin: 0 auto;
-    align-items: center;  
-    justify-content: center; 
+.artigo {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1500px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
 }
-.artigo > div{
-    flex: 1 1 300px;
+.artigo > div {
+  flex: 1 1 300px;
 }
-.artigo > a{
-    text-decoration: none;
+.artigo > a {
+  text-decoration: none;
 }
-.blocoart{
-    background-color: rgba(0, 0, 0, 0.568);
-    margin: 20px;
-    padding: 10px;
-    border-radius: 10px;
-    border: 10px static #F28705;
-    max-width: 400px;
-    min-width: none;
-    max-height: 400px;
-    align-items: center;
-    overflow: hidden;
-    transition: 0.3s;
+.blocoart {
+  background-color: rgb(255, 255, 255);
+  margin: 20px;
+  padding: 10px;
+  padding-bottom: 15px;
+  border-radius: 10px;
+  max-width: 400px;
+  min-width: none;
+  max-height: 420px;
+  align-items: center;
+  overflow: hidden;
+  transition: 0.3s;
 }
-.blocoart:hover{
-    transform: scale(1.02);
-    transition: 0.3s;
+.blocoart:hover {
+  transform: scale(1.02);
+  transition: 0.3s;
+  background-color: rgb(0, 0, 0);
+  color: #ffffff;
 }
-.blocoart:hover img{
-    transform: scale(1.11) translateY(-5px);
-    border-radius: 10px 10px 0px 0px;
-    transition: 0.3s;
+.blocoart:hover img {
+  transform: scale(1.11) translateY(-5px);
+  border-radius: 10px 10px 0px 0px;
+  transition: 0.3s;
 }
-.blocoart img{
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    border-radius: 10px;
-    transition: 0.3s;
+.blocoart:hover h2 {
+  color: #f28705;
+  transition: 0.3s;
 }
-.blocoart h2, p, span{
-    margin: 5px;
-    text-align: left;
-    color: #f3f3f3;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+.blocoart:hover p {
+  color: #ffffff;
+  transition: 0.3s;
 }
-
-.blocoart span{
-    font-size: small;
+.blocoart:hover span {
+  color: #ffffff;
+  transition: 0.3s;
 }
 
+.blocoart img {
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.blocoart h2,
+p,
+span {
+  transition: 0.3s;
+  margin: 5px;
+  text-align: left;
+  color: #000000;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
 
-.footerr{
-    /*position: absolute;*/
-    background-color: black;
-    color: aliceblue;
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 300;
-    text-align: center;
-    padding: 10px;
+.data {
+  font-size: small;
 }
-.footerr  img{
-    padding-bottom: 5px;
-    max-width: 30px;
+
+main > footer {
+  text-align: center;
 }
-.footerr a{
-    color: aliceblue;
-    text-decoration: none;
-    font-weight: 400;
-    
+.footerr {
+  /*position: absolute;*/
+  background-color: black;
+  color: aliceblue;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  text-align: center;
+  padding: 10px;
+}
+.footerr p {
+  color: aliceblue;
+  text-align: center;
+}
+.footerr img {
+  padding-bottom: 5px;
+  max-width: 30px;
+}
+.footerr a {
+  color: aliceblue;
+  text-decoration: none;
+  font-weight: 400;
 }

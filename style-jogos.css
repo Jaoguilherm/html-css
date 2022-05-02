@@ -40,31 +40,61 @@ nav > a:hover{
 
 body{
     background-color: #1A1B1D;
+    background-image: url(Imagens/amar\ \(2\).png);
 }
 
 main{
-    background-color: #414144;
+    background-color: #8d8d8d;
     padding: 0px;
     margin: auto;
-    min-width: 350px;
-    max-width: 1500px;
+    min-width: 330px;
+    max-width: 90vw;
+}
+.local{
+    background-color: #00FF6D;
+    color: black;
 }
 
 
 .title{
-    position: relative;
-    background-image: url(https://wallpaperaccess.com/full/653675.jpg);
+    background: url(../Imagens/ama.png);
+    background-position: center;
     margin-top: 0px;
-    height: 300px;
+    height: 330px;
     background-size: cover;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    font-family: monospace;
+    transition: 1s;
 }
-div > img{
+.title:hover{
+    background-position: top;
+    transition: 1s;
+}
+.title:hover h1{
+    color: #00FF6D;
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 1s;
+}
+.title:hover p{
+    color: #00FF6D;
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 1s;
+}
 
-}
+
 div > h1{
     text-align: center;
     color: rgb(255, 255, 255);
-    padding-top: 80px;
+    padding-top: 0px;
 }
 div > p{
     text-align: center;
@@ -86,12 +116,25 @@ div > p{
     display: flex;
     flex-wrap: wrap;
     max-width: 1500px;
-    margin: 0 auto;   
+    flex-direction: row; /* vou utilizar isso na pagina de podcast*/
+    justify-content: center;
+    
 }
 .flex > div{
     flex: 1 1 300px;
     margin: 20px;
+    max-width: 300px;
     transition: 0.75s;
+}
+.title h1{
+    transition: 1s;
+    margin-bottom: 10px;
+}
+.title p{
+    font-size: large;
+    max-width: 500px;
+    margin: 0 auto;   
+    transition: 1s;
 }
 /*.descricao{
     padding: 20px;
@@ -112,9 +155,60 @@ div > p{
 .flex p{
     background-color: black;
     border-radius: 0px 0px 10px 10px;
-    font-family: fantasy;
+    font-family: monospace;
     font-size: xx-large;
+    color: #ffffff;
+    transition: 0.75s;
+    padding: 10px;
+}
+.flex div:hover p{
     color: #00FF6D;
+    transition: 0.75s;
+}
+
+
+.title2{
+    background: url(../Imagens/ama.png);
+    background-position: center;
+    margin-top: 0px;
+    height: 330px;
+    background-size: cover;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    font-family: monospace;
+    transition: 1s;
+}
+.title2:hover{
+    background-position: top;
+    transition: 1s;
+}
+.title2:hover h1{
+    color: #00FF6D;
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 1s;
+}
+.title2:hover p{
+    color: #00FF6D;
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 1s;
+}
+.title2 h1{
+    transition: 1s;
+    margin-bottom: 10px;
+}
+.title2 p{
+    font-size: large;
+    max-width: 500px;
+    margin: 0 auto;   
+    transition: 1s;
 }
 
 footer{

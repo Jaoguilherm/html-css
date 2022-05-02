@@ -27,7 +27,7 @@ nav{
     padding: 10px;
 }
 nav > a {
-    color: #F28705;
+    color: #00FF6D;
     padding: 8px;
     text-decoration: none;
     margin: 17px;
@@ -36,7 +36,7 @@ nav > a {
     transition: 0.5s;
 }
 nav > a:hover{
-    background-color: #F28705;  
+    background-color: #00FF6D;  
     
     color: black;
     transition-duration: 0.5s;
@@ -45,10 +45,11 @@ main{
     padding: 30px ;
 }
 body{
-    background-image: url(https://i.redd.it/zwef41gb3x551.png);
+    background-image: url(../Imagens/amar\ \(2\).png);
+    
 }
 main{
-    background-color: #cfcfcff5;
+    background-color: #fffffff5;
     padding: 20px;
     margin: auto;
     min-width: 350px;
@@ -56,7 +57,9 @@ main{
 }
    /*Imagem e descricao do jogo*/
 
-
+.centra{
+    margin: 0 auto;
+}
 .grid{
     display: flex;
     align-items: center;
@@ -69,7 +72,7 @@ main{
     max-width: 450px;
     margin: 10px;
     border-radius: 10px;
-    border: 5px solid #F28705;
+    border: 5px solid #00FF6D;
     transition: 0.75s;
     
 }
@@ -78,11 +81,13 @@ main{
     transition: 0.75s;
 }
 .grid h1{
+    font-family: 'Ubuntu', sans-serif;
     text-align: center;
     font-size: xx-large;
     margin-top: 20px;
 }
 .grid p{
+    font-family: 'Ubuntu', sans-serif;
     max-width: 500px;
     max-height: 225px;
     margin: 40px;
@@ -128,10 +133,10 @@ main{
       cursor: pointer;
       font-family: 'Play', sans-serif;
       font-size: 20px;
-      color: orange;
+      color: #00FF6D;
       border: none;
       border-radius: 25px;
-      background-image: url("https://www.gamereactor.pt/media/65/cyberpunk2077_3196563.png");
+      background-image: url("../Imagens/amar\ \(3\).png");
       background-size: 150%;
       background-position: left;
       transition: 1s;
@@ -197,7 +202,7 @@ div.video > iframe{
     width: 90%;
     height: 90%;
 
-    border: 4px inset #F28705;
+    border: 4px inset #00FF6D;
     border-radius: 5px;
 }
 
