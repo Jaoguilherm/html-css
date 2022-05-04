@@ -23,7 +23,7 @@ nav{
     padding: 10px;
 }
 nav > a {
-    color: #F28705;
+    color: #FF1616;
     padding: 8px;
     text-decoration: none;
     margin: 17px;
@@ -32,76 +32,91 @@ nav > a {
     transition: 0.5s;
 }
 nav > a:hover{
-    background-color: #F28705;  
+    background-color: #FF1616;  
     
     color: black;
     transition-duration: 0.5s;
 }
+body{
+    background-image: url(../Imagens/backgroundred.png);
+}
 main{
     margin: 0 auto;
     max-width: 1200px;
-    background-color: #031626;
+    background-color: #ffffff;
+    
 }
+
+
 .local{
-    background-color: #006eff; 
-    color: black
+    background-color: #FF1616;  
+    
+    color: black;
 }
-.alinhamento{
-    margin: 0 auto;
-    padding: 20px;
-}
-.outdoor{
-    background-image: url(../Imagens/amar\ \(6\).png);
+
+.capa{
+    background-image: url(imagens-sobre/imagemdacapagamestate.png);
     background-size: cover;
     background-position: center;
-    height: 300px;
+    height: 500px;
 
     margin: 0 auto;
-
-    text-align: center;
+    color: aliceblue;
+    text-align: right;
     display: flex;
     flex-wrap: nowrap;
-    justify-content: center;
     
-    align-items: center;
-    font-family: monospace;
+    flex-direction: column;
+    
+    align-items: flex-end;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     transition: 1s;
 }
-.outdoor p, h1{
-    color: aliceblue;
-    max-width: 400px;
-    margin: 10px;
-    transition: 1s;
+.capa p, h1{
+    margin: 10px 50px;
+    max-width: 700px;
 }
-.outdoor p{
+.capa p{
     font-size: large;
-    transition: 1s;
 }
-.outdoor h1{
+.capa h1{
     font-size: xx-large;
-    transition: 1s;
 }
-.outdoor:hover{
+.capa:hover{
     background-position: top;
-    transition: 1s;
 }
-.outdoor:hover h1{
-    padding: 10px 0px 0px 0px;
-    border-radius: 10px;
-    transition: 1s;
+.explica{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;
+    text-align: justify;
 }
-.outdoor:hover p{
-    padding: 10px;
-    border-radius: 10px;
-    transition: 1s;
+.titulo h1{
+    margin: 0 auto;
+    text-align: center;
+    font-size: xx-large;
+}
+.explica p{
+    margin: 10px auto;
+    text-align: center;
+    max-width: 800px;
+    font-size: large;
+}
+.imgexplica {
+    margin: 30px auto;
+    max-width: 700px;
+    transition: 0.75s;
+}
+.imgexplica img{
+    max-width: 100%;
+    border-radius: 5px;
+    transition: 0.75s;
+}
+.imgexplica:hover{
+    transform: scale(1.009);
+    transition: 0.75s;
 }
 
-.bloco{
-    
-}
-.bloco h1{
-    text-align: center;
-}
 
 footer{
     /*position: absolute;*/
@@ -120,5 +135,5 @@ footer a{
     color: aliceblue;
     text-decoration: none;
     font-weight: 400;
-
+    
 }

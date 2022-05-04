@@ -44,236 +44,288 @@ nav > a:hover{
     color: black;
     transition-duration: 0.5s;
 }
-main{
-    padding: 30px;
+body{
+    background-image: url(Imagens/amar\ \(1\).png);
 }
 
 main{
-    background-color: #cfcfcf;
-    padding: 20px;
+    background-color: #ffffff;
+    
     margin: auto;
     min-width: 350px;
     max-width: 1500px;
 }
 
-/*TESTANDO DE NOVO*/
-.container{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-
-}
-.container .hexagon{
-    position: relative;
-    top: -20px;
-    width: 325px;
-    height: 375px;
-    margin: 50px 20px 70px;
-
-    
-}
-.container .hexagon::before{
-    content: '';
-    position: absolute;
-    bottom: -70px;
-    width: 100%;
-    height: 60px;
-    background: radial-gradient(rgba(0, 0, 0, 0), transparent, transparent);
-    border-radius: 50%;
-    transition: 0.5s;
-
-}
-.container .hexagon:hover:before{
-    opacity: 0.8;
-    transform: scale(0.8);
-}
-.container .hexagon .shape{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: #000;
-    clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
-    transition: 0.5s;
-
-
-}
-.container .hexagon:hover .shape{
-    transform: translateY(-15px);
-}
-.container .hexagon .shape img{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-
-}
-.container .hexagon .shape .content{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background: linear-gradient(45deg, rgba(0, 0, 0, 0.719), rgba(242, 135, 5, 0.103));
-    color: aliceblue;
-    transition: 0.5s;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: x-large;
-}
-.links{
-    color: aliceblue;
-    text-decoration: none;
-    transition: 0.5s;
-}
-
-.container .hexagon:hover .shape .content .links{
-    background: linear-gradient(45deg, rgba(0, 0, 0, 0.801), rgba(242, 135, 5, 0));
-    color: #F28705;
-    transition: 0.5s;
-}
-
-
-
-/*
-
-div.imgthumb > img{*/ /*isto esta sendo editado*/
-/*
-    position: relative;*/
-    /*clip-path: polygon(51% 0, 100% 28%, 100% 78%, 51% 100%, 0 76%, 0 26%);*/
-    /*clip-path: polygon(63% 0px, 100% 25%, 100% 75%, 63% 100%, 75px 75%, 75px 25%);*//*
-    -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-
-    width: 100%;
-    height: 100%;
-    border: 8px #F28705;
-
-
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-
-}
-p.thumb{
-    font-size: clamp(0.6rem, 1.5vw, 4rem);
-    font-family:'Ubuntu', sans-serif;
-    font-weight: bold;
-    color: aliceblue;
-    background-color: rgba(0, 0, 0, 0.507);
-    text-align: justify;
-    padding: 5px;
-
-}
-*/
-/*TESTE*/
-
-/*
-.imgthumb .content{
-    position: fixed;
-    top: -7px;
-    left: ;
-
-}
-
-p.description{
-    margin-bottom: 50px;
- 
-}
-p.zindex{
-    position: relative;
-    z-index: 10;
-    margin-bottom: 40px;
-}
-
-p.thumb:hover{
-    color: #F28705;
-    background-color: rgba(0, 0, 0, 0.575);
-    transition: 00.5s;
-}
-main ul{
-    list-style: none;
-    columns: 3;
-}
-*/
-
-/*PARTE DO VIDEO EM DESTAQUE*/ 
-
-div.video{
-    /*background-color: black;*/
-    background-image: url(../Imagens_noticias/6.png);
+.capa{
+    background-image: url(sobre/imagens-sobre/imagemdacapagamestate.png);
+    background-size: cover;
     background-position: center;
-    background-size: cover;/*PRECISO VER SE MELHORO ISSO AQUI*/
+    height: 500px;
 
-    padding: 30px 30px;
-    margin: 20px -20px 30px -20px;
-
-    padding-bottom: 35%;
-
-    position: relative;
-}
-div.video > iframe{
-    position: absolute;
-
-    top: 10%;
-    left: 5%;
-
-    width: 50%;
-    height: 75%;
-
-    border: 4px inset #F28705;
-    border-radius: 5px;
-
-}
-div > p.texto-video{
-    position: absolute;
-
-    top: 20%;
-    left: 60%;
-
-    color: white;
-    text-align: justify;
-    max-width: 500px;
-    
-    font-size: clamp(0.5rem, 2.0vw, 2rem);
-    font-family:'Ubuntu', sans-serif;
-    font-weight: bold;
+    margin: 0 auto;
     color: aliceblue;
-    background-color: rgba(0, 0, 0, 0.788);
-    padding: 15px;
-    margin-right: 20px;
+    text-align: right;
+    display: flex;
+    flex-wrap: nowrap;
+    
+    flex-direction: column;
+    
+    align-items: flex-end;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 1s;
+}
+.capa p, h1{
+    margin: 10px 50px;
+    max-width: 700px;
+}
+.capa p{
+    color: #ffffff;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: right;
+}
+.capa h1{
+    font-size: xx-large;
+}
+.capa:hover{
+    background-position: top;
+}
+
+.artigo{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1500px;
+    margin: 0 auto;
+    align-items: center;  
+    justify-content: center; 
+}
+.artigo > div{
+    flex: 1 1 300px;
+}
+.artigo > a{
+    text-decoration: none;
+}
+.blocoart{
+    background-color: rgb(255, 255, 255);
+    margin: 20px;
+    padding: 10px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    max-width: 400px;
+    min-width: none;
+    max-height: 420px;
+    align-items: center;
+    overflow: hidden;
+    transition: 0.3s;
+}
+.blocoart:hover{
+    transform: scale(1.02);
+    transition: 0.3s;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+}
+.blocoart:hover img{
+    transform: scale(1.11) translateY(-5px);
+    border-radius: 10px 10px 0px 0px;
+    transition: 0.3s;
+}
+.blocoart:hover h2{
+    color: #F28705;
+    transition: 0.3s;
+}
+.blocoart:hover p{
+    color: #ffffff;
+    transition: 0.3s;
+}
+.blocoart:hover span{
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+.blocoart img{
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.blocoart h2, p, span{
+    transition: 0.3s;
+    margin: 5px;
+    text-align: left;
+    color: #000000;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.data{
+    font-size: small;
+}
+
+.capa2{
+    background-image: url(Imagens/amar\ \(6\).png);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+
+    margin: 0 auto;
+    color: aliceblue;
+    text-align: left;
+    display: flex;
+    flex-wrap: nowrap;
+    
+    flex-direction: column;
+    
+    align-items: flex-start;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 1s;
+}
+.capa2 p, h1{
+    margin: 10px 50px;
+    max-width: 700px;
+}
+.capa2 p{
+    color: #ffffff;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+}
+.capa2 h1{
+    font-size: xx-large;
+}
+.capa2:hover{
+    background-position: bottom;
+}
+
+.player{
+    display: flexbox;
+    flex-wrap: nowrap;
+    max-width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #033159;
+    transition: 1s;
+    margin: 20px;
+}
+.player:hover{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #034C8C;
+    transform: scale(1.007);
+    transition: 0.5s;
+}
+.alinhamento{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1500px;
+    margin: 0 auto;
+    align-items: center;  
+    justify-content: center; 
+    padding: 20px;
+}
+
+.capa3{
+    background-image: url(Imagens/ama.png);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+
+    margin: 0 auto;
+    color: aliceblue;
+    text-align: right;
+    display: flex;
+    flex-wrap: nowrap;
+    
+    flex-direction: column;
+    
+    align-items: flex-end;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 1s;
+}
+.capa3 p, h1{
+    margin: 10px 50px;
+    max-width: 700px;
+}
+.capa3 p{
+    color: #ffffff;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: right;
+}
+.capa3 h1{
+    font-size: xx-large;
+}
+.capa3:hover{
+    background-position: top;
+}
+.flex img{
+    max-width: 100%;
+    display: block;
+    border-radius: 10px 10px 0px 0px;
+}
+.flex div:hover{
+    transform: scale(1.04);
+    transition: 0.75s;
+    border-radius: 10px;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1500px;
+    flex-direction: row; /* vou utilizar isso na pagina de podcast*/
+    justify-content: center;
     
 }
+.flex > div{
+    flex: 1 1 300px;
+    margin: 20px;
+    max-width: 300px;
+    transition: 0.75s;
+}
+.flex p{
+    text-align: center;
+    margin: 0px;
+    background-color: black;
+    border-radius: 0px 0px 10px 10px;
+    font-family: monospace;
+    font-size: xx-large;
+    color: #ffffff;
+    transition: 0.75s;
+    padding: 10px;
+}
+.flex div:hover p{
+    color: #00FF6D;
+    transition: 0.75s;
+}
+
+/*TESTANDO DE NOVO*/
+
 
     /*NOTICIAS E PODCAST*/
 
 
     /*JOGOS EM DESTAQUE*/
 
-footer{
-    /*position: absolute;*/
-    background-color: black;
-    color: aliceblue;
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 300;
-    text-align: center;
-    padding: 10px;
-}
-footer img{
-    padding-bottom: 5px;
-    max-width: 30px;
-}
-footer a{
-    color: aliceblue;
-    text-decoration: none;
-    font-weight: 400;
-    
-}
+    footer{
+        background-color: black;
+        text-align: center;
+        padding: 10px;
+    }
+    footer p{
+        color: aliceblue;
+        font-weight: 300;
+        font-family: 'Ubuntu', sans-serif;
+        text-align: center;
+    }
+    footer img{
+        padding-bottom: 5px;
+        max-width: 30px;
+    }
+    footer a{
+        color: aliceblue;
+        text-decoration: none;
+        font-weight: 400;  
+    }

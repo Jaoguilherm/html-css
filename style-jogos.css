@@ -44,11 +44,11 @@ body{
 }
 
 main{
-    background-color: #8d8d8d;
+    background-color: #ffffff;
     padding: 0px;
     margin: auto;
     min-width: 330px;
-    max-width: 90vw;
+    max-width: 1500px;
 }
 .local{
     background-color: #00FF6D;

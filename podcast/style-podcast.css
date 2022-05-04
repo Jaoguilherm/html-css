@@ -67,7 +67,7 @@ main{
     flex-direction: column;
     align-items: center;
     align-content: center;
-    font-family: monospace;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     transition: 1s;
 }
 .outdoor p, h1{
