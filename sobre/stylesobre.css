@@ -23,22 +23,22 @@ nav{
     padding: 10px;
 }
 nav > a {
-    color: #FF1616;
+    color: #F28705;
     padding: 8px;
     text-decoration: none;
-    margin: 17px;
+    margin: 3px;
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
     transition: 0.5s;
 }
 nav > a:hover{
-    background-color: #FF1616;  
+    background-color: #F28705;  
     
     color: black;
     transition-duration: 0.5s;
 }
 body{
-    background-image: url(../Imagens/backgroundred.png);
+    background-image: url(../Imagens/amar\ \(1\).png);
 }
 main{
     margin: 0 auto;
@@ -49,7 +49,7 @@ main{
 
 
 .local{
-    background-color: #FF1616;  
+    background-color: #F28705;  
     
     color: black;
 }

@@ -26,7 +26,7 @@ nav > a {
     color: #006eff;
     padding: 8px;
     text-decoration: none;
-    margin: 17px;
+    margin: 3px;
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
     transition: 0.5s;
@@ -51,6 +51,43 @@ main{
 }
 .alinhamento{
     padding: 20px;
+}
+
+.capa2{
+    background-image: url(../Imagens/amar\ \(6\).png);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+
+    margin: 0 auto;
+    color: aliceblue;
+    text-align: left;
+    display: flex;
+    flex-wrap: nowrap;
+    
+    flex-direction: column;
+    
+    align-items: flex-start;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 1s;
+}
+.capa2 p, h1{
+    margin: 10px 50px;
+    max-width: 700px;
+}
+.capa2 p{
+    color: #ffffff;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+}
+.capa2 h1{
+    margin-left: 50px;
+    font-size: xx-large;
+}
+.capa2:hover{
+    background-position: bottom;
 }
 .outdoor{
     background-image: url(../Imagens/amar\ \(6\).png);

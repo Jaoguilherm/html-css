@@ -16,7 +16,7 @@ strong.azul{
 }
 
 header{
-    background-image: url(../Imagens/background-gamestate.png);
+    background-image: url(Imagens/background-gamestate.png);
     background-size: cover;
     /*padding-top: px;*/
     text-align: center;
@@ -33,7 +33,7 @@ nav > a {
     color: #F28705;
     padding: 8px;
     text-decoration: none;
-    margin: 17px;
+    margin: 3px;
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
     transition: 0.5s;
@@ -45,14 +45,14 @@ nav > a:hover{
     transition-duration: 0.5s;
 }
 body{
-    background-image: url(Imagens/amar\ \(1\).png);
+    background-image: url(Imagens/amar\ \(11\).png);
 }
 
 main{
     background-color: #ffffff;
     
     margin: auto;
-    min-width: 350px;
+    min-width: 300px;
     max-width: 1500px;
 }
 
@@ -202,6 +202,7 @@ main{
 .player{
     display: flexbox;
     flex-wrap: nowrap;
+    min-width: 230px;
     max-width: 300px;
     padding: 20px;
     border-radius: 10px;
