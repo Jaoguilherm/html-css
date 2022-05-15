@@ -68,7 +68,7 @@ main{
     flex-direction: column;
     align-items: center;
     align-content: center;
-    font-family: monospace;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     transition: 1s;
 }
 .title:hover{
@@ -155,7 +155,7 @@ div > p{
 .flex p{
     background-color: black;
     border-radius: 0px 0px 10px 10px;
-    font-family: monospace;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: xx-large;
     color: #ffffff;
     transition: 0.75s;
@@ -179,7 +179,7 @@ div > p{
     flex-direction: column;
     align-items: center;
     align-content: center;
-    font-family: monospace;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     transition: 1s;
 }
 .title2:hover{
@@ -205,6 +205,50 @@ div > p{
     margin-bottom: 10px;
 }
 .title2 p{
+    font-size: large;
+    max-width: 500px;
+    margin: 0 auto;   
+    transition: 1s;
+}
+
+.title3{
+    background: url(Imagens/amar\ \(13\).png);
+    background-position: center;
+    margin-top: 0px;
+    height: 330px;
+    background-size: cover;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 1s;
+}
+.title3:hover{
+    background-position: top;
+    transition: 1s;
+}
+.title3:hover h1{
+    color: #00FF6D;
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 1s;
+}
+.title3:hover p{
+    color: #00FF6D;
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 1s;
+}
+.title3 h1{
+    transition: 1s;
+    margin-bottom: 10px;
+}
+.title3 p{
     font-size: large;
     max-width: 500px;
     margin: 0 auto;   
