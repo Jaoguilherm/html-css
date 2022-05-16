@@ -55,7 +55,9 @@ main{
     min-width: 300px;
     max-width: 1500px;
 }
-
+.canal{
+    text-decoration: none;
+}
 .capa{
     background-image: url(sobre/imagens-sobre/imagemdacapagamestate.png);
     background-size: cover;
@@ -90,6 +92,17 @@ main{
 }
 .capa:hover{
     background-position: top;
+}
+.marca{
+    color: #ffffff;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: right;
+    transition: 0.5s;
+}
+.capa:hover .marca {
+    color: #F28705;
+    transition: 0.5s;
 }
 
 .artigo{
